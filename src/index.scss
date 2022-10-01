@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Josefin+Sans:ital,wght@0,500;1,300&family=Lato:ital,wght@0,400;0,700;1,400&family=Mate+SC&family=Mulish&family=Pragati+Narrow&family=Raleway:wght@200&family=Roboto&display=swap');
+// variables
+$brandcolor:#3498db ;
+$brandfont: Arial, Helvetica, sans-serif;
+$mainfont:'Lato', sans-serif;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $mainfont;
+}
+.header{
+box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+.btns_heading{
+margin-left: 20px;
+}
+nav{
+  background-color: #fff !important;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color:$brandcolor !important;
+  font-weight: bold;
+  margin-left: 90px;
+}
+.navbar-nav{
+  margin-right: 90px;
+}
+.navbar-nav a{
+  font-size: 1.3rem;
+  text-transform:capitalize;
+}
+.nav-item  {
+  padding-left: 10px;
+}
+
+.nav-item a:hover {
+  color: $brandcolor !important;
+}
+
+.link-active{
+  
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+/* **************************||||||||Home Page Styling|||||||||***************************** */
+#header .brand-name{
+  color: $brandcolor;
+}
+#header{
+width: 100%;
+height: 70vh;
+margin-top: 70px;
+h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+  margin: 0 0 10px 0;
+  }
+  h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #484848;
+    margin: 0 0 10px 0;
+    }
+}
+
+
+    .header-img{
+      text-align: right;
+    }
+    .image_styling{
+      height: 500px;
+      width: 500px;
+    }
+#header .animated{
+animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+0%{
+transform: translateY(10px);
+}
+100%{
+transform: translateY(-10px);
+}
+}
+@-webkit-keyframes up-down{
+  0%{
+  transform: translateY(10px);
+  }
+  100%{
+  transform: translateY(-10px);
+  }
+  }
+/* **************************Service Page Styling***************************** */
+
+  .software_cover{
+    h1{
+      font-weight: bold;
+      font-size: 48px;
+      color: $brandcolor;
+    }
+    p {
+      font-size: 24px;
+       }
+  } 
+  
+  .software_develop{
+    h1{
+      font-weight: bold;
+      font-size: 48px;
+      color: $brandcolor;
+    }
+    p{
+
+      font-size: 24px; 
+    }
+
+  } 
+  
+  .ImageSize{
+    height: 200px;
+    width:200px;
+    padding-top: 5px;
+  }
+  .Software_images{
+    height: 100px;
+    width: 100px;
+    padding-top: 5px;
+  }
+  .CircleImage{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0ecec;
+    border-radius: 50%;
+    -moz-box-shadow:inset 0px 0px 0px rgb(215, 215, 215); /* FF3.5+ */
+-webkit-box-shadow:inset 0px 0px 0px rgb(215, 215, 215); /* Saf3.0+*/
+box-shadow:inset 0px 0px 0px rgb(215, 215, 215); /* Opera 10.5, IE 9 */
+
+
+  }
+  .card_discription{
+font-size: 16px;
+margin-bottom:50px;
+  }
+  .card_title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .card_body {
+    display: flex;
+    flex-direction: column;
+  }
+  .card_btn{
+  position:absolute;
+   margin-bottom: 10px;
+   margin-left:65%;
+   bottom: 0;
+   color: black;
+   text-transform: uppercase;
+   text-decoration: none;
+   
+  }
+  .arrow{
+    font-size: large;
+    font-weight: bolder;
+   
+  }
+  .arrow :hover{
+    color: $brandcolor;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
+  }
+  .Software_Card{
+    font-display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-top: 10px;
+    transition: 0.3s;
+    box-shadow: 0 0.4px 3px 0 rgba(0,0,0,0.2);
+    /* d-flex flex-column text-center w-100 justify-content-center */
+  }
+  .Software_Card:hover {
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+  }
+  /* **************************About Page Styling***************************** */
+  .AboutCover{
+    margin-top: 10px;
+width: 1250px;
+height: 200px;
+p{
+  margin-top: 18px;
+font-size: 24px;
+font-family: $brandfont;
+.blueColor{
+  color: $brandcolor;
+    }
+}
+  }
+  
+  .Aboutheading{
+    font-weight: bold;
+    font-size: 38px;
+    color:$brandcolor;
+    margin-bottom: 20px;
+  }
+  .Aboutheadings{
+    font-weight: bold;
+    font-size: 38px;
+    color: $brandcolor;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+ 
+.Aboutcontainer {
+display: grid;
+justify-content: center;
+align-content: center;
+grid-template-columns: repeat(4, minmax(300px, 300px));
+grid-gap: 10px;
+  }
+  .box{
+    font-family: $brandfont;
+    height: 150px;
+    width: 250px;
+    padding-top: 10px;
+    padding-left: 35px;
+    border-left: 2px solid rgb(232, 227, 227);
+    h1{
+      color: $brandcolor;
+      font-weight: bold;
+    }
+  }
+ 
+  .MainGeography{
+width: 90%;
+display: flex;
+  }
+  .Geography{
+display: grid;
+grid-template-columns: repeat(3, 400px);
+grid-gap: 10px;
+width: 90%;
+
+
+  }
+  .gbox{
+    display: flex;
+    flex-direction: column;
+    font-family: $brandfont;
+    height: 200px;
+    width: 360px;
+    padding-top: 10px;
+    padding-left: 35px;
+    border: 2px solid rgb(232, 227, 227);
+    h1{
+      color:black;
+      font-weight: bold;
+      font-size: 20px;
+      padding-left: 20px;
+      padding-top: 5px;
+    }
+    ul{
+      list-style-type:square;
+      li {
+        padding-top:15px;
+         color: $brandcolor;
+         span { 
+          font-size: 18px;
+       color: black;
+        } 
+       }
+    }
+    
+  }
+
+/* |||||||||||||||||| CONTACT US STYLING ||||||||||||||||||||||||||| */
+ .contact_heading{
+  font-family: $mainfont;
+ }
+ .contact_us{
+   margin-bottom: 10px;
+ }
